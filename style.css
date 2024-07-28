@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #8A51FC;
+}
+
+.logo-principal {
+    width: 160px;
+    height: 160px;
+    display: block;
+    margin: 5px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre o main e a section */
+    margin: 0 auto;
+    flex-wrap: wrap; /* Permite que os itens sejam quebrados em linhas */
+}
+
+main, section {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    padding: 15px 24px 23px;
+    box-sizing: border-box;
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select, input {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 12px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background-color: #772fd3;
+    color: #ffffff;
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772fd3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main, section {
+        width: 90%; /* Ajusta a largura para ocupar 90% da largura da tela */
+        margin-bottom: 20px; /* Espaçamento entre os elementos */
+    }
+}
