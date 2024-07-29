@@ -16,7 +16,7 @@
 <br>
 <h2>Segue link do projeto:</h2>
 <br>
-<a href="https://github.com/samukanm/conversor-de-moeda">Link do Projeto
+<a href="https://samukanm.github.io/conversor-de-moeda/">Link do Projeto
 <br>
 <br>
 <img src="https://github.com/samukanm/conversor-de-moeda/blob/main/assets/print%20conversor.PNG?raw=true">
