@@ -1,6 +1,6 @@
 <h1>Conversor de Moedas</h1>
 <br>
-<p>Este projeto de conversor de moedas apresenta uma interface simples e intuitiva onde o usuário pode converter valores entre o real brasileiro e o dólar americano. No lado esquerdo da interface, há campos para selecionar a moeda de origem e destino e inserir o valor a ser convertido. Ao clicar no botão "Converter", o resultado é exibido no painel à direita, mostrando claramente a conversão de R$ 150,00 para US$ 30,00.
+<p>Este projeto de conversor de moedas apresenta uma interface simples e intuitiva onde o usuário pode converter valores entre o real brasileiro e o dólar americano. No lado esquerdo da interface, há campos para selecionar a moeda de origem e destino e inserir o valor a ser convertido. Ao clicar no botão "Converter", nesse projeto utilizei uma API para obter os valores de câmbio em tempo real, garantindo que as conversões sejam sempre precisas e atualizadas.
 
 </p>
 <br>
