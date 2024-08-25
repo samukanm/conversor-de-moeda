@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL");
             const data = await response.json();
             return {
-                dolar: data.USDBRL.bid,
-                euro: data.EURBRL.bid,
-                bitcoin: data.BTCBRL.bid
+                dolar: data.USDBRL.high,
+                euro: data.EURBRL.high,
+                bitcoin: data.BTCBRL.high
             };
         } catch (error) {
             alert("Erro ao buscar dados de câmbio.");
